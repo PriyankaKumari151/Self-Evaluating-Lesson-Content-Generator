@@ -1,0 +1,39 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# SQLite
+data/*.db
+data/*.db-journal
+data/*.sqlite
+
+# Generated outputs
+outputs/*
+
+# Keep directories in Git
+!outputs/.gitkeep
+!data/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs
+
+#tests
+tests/*
+
+#virtual-env
+.virtual_env
